@@ -12,6 +12,5 @@ jobs:
       run: docker build -t packages_apps_managedprovisioning:1.2.3 .
     - name: Scan
       uses: docker://aquasec/trivy
-      with:
-       args: --severity HIGH,CRITICAL alpine:3.15
+    
 
