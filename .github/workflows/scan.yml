@@ -13,4 +13,4 @@ jobs:
     - name: Scan
       uses: docker://aquasec/trivy
       with:
-        args: --severity LOW,CRITICAL,MEDIUM,HIGH --no-progress packages_apps_managedprovisioning:1.2.3
+      args: --severity LOW,CRITICAL,MEDIUM,HIGH --no-progress packages_apps_managedprovisioning:1.2.3
